@@ -1,5 +1,5 @@
 {
-  "proxy": "https://expenseback-d1ao.onrender.com",
+  "proxy": "https://expenseback-d1ao.onrender.com/api/v1",
   "name": "client",
   "version": "0.1.0",
   "private": true,
