@@ -11,7 +11,7 @@ const Register = () => {
   const submitHandler = async (values) => {
     try{
       setLoading(true);
-      await axios.post('/api/v1/users/register',values);
+      await axios.post('https://expenseback-2-j1ah.onrender.com/api/v1/users/register',values);
       message.success('Registration successful');
       setLoading(false);
       navigate('/login');
